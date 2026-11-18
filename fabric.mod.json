@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "noplayerglow",
+  "version": "${version}",
+  "name": "No Player Glow",
+  "description": "Stops players from rendering the glowing outline (saves FPS).",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["noplayerglow.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
